@@ -1,0 +1,6 @@
+{
+  "name": "SANA BEAUTY | The Velvet Lollipop Experience",
+  "description": "Ultra luxury beauty and body care digital flagship. Discover the Velvet Lollipop ritual, crafted with sensual textures, warm fragrance notes, and bespoke packaging.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

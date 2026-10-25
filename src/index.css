@@ -1,0 +1,63 @@
+@import "tailwindcss";
+
+@theme {
+  --color-velvet: #6B2C3E;
+  --color-velvet-dark: #4F1D2C;
+  --color-velvet-deep: #2D1B1A;
+  --color-peach: #D4A574;
+  --color-peach-light: #F4E8DC;
+  --color-peach-pale: #FBF4EC;
+  --color-gold: #C9A961;
+  --color-gold-light: #DFCA91;
+  --color-gold-muted: #B8974D;
+  --color-cream: #E8D5C4;
+  --color-cream-light: #F9F5F0;
+  --color-cream-soft: #F4ECE3;
+  --color-dark: #2D1B1A;
+  --font-serif: "Playfair Display", Georgia, serif;
+  --font-sans: "Montserrat", system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+}
+
+@layer base {
+  body {
+    font-family: var(--font-sans);
+    color: #2D1B1A;
+    background-color: #FAF6F0;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+
+  h1, h2, h3, h4, .font-serif {
+    font-family: var(--font-serif);
+  }
+}
+
+/* Custom luxury scrollbar */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-track {
+  background: #FAF6F0;
+}
+::-webkit-scrollbar-thumb {
+  background: #D4A574;
+  border-radius: 3px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #6B2C3E;
+}
+
+/* Luxury visual accents */
+.gold-shimmer {
+  background: linear-gradient(135deg, #C9A961 0%, #F5E8C7 50%, #B8974D 100%);
+}
+
+.velvet-gradient {
+  background: linear-gradient(135deg, #6B2C3E 0%, #4F1D2C 60%, #2D1B1A 100%);
+}
+
+.cream-card {
+  background: #FFFFFF;
+  border: 1px solid rgba(212, 165, 116, 0.2);
+}
